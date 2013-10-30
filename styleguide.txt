@@ -1,0 +1,26 @@
+General:
+  line-height: 24px
+  font: #444, 'Open Sans', 14px
+  border: #ededed
+Body: 
+  background: #e6e6e6
+Main page:
+  width: 1040px
+  shadow: 0, 0, 6px, rgba(100, 100, 100, 0.3)
+  background: #fff
+  border: none
+Header colour: #209cc9, 29px, bold
+Navigation
+  height: 44px
+Banner image:
+  width: 960px
+Sidebar text: #9f9f9f
+Article text:
+  header: #444, bold, 22px
+  content: #444
+Tag:
+  1x: 11px
+  2x: 22px
+  3x: 29px
+Code: colour, font not required
+Paginator link: #21759b
