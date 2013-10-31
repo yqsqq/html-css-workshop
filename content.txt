@@ -5,34 +5,17 @@ Internet Explorer may be the worst browser for front-end developers. Now I’m w
 #1 IE condition comments
 IE condition comments are readable by IE and can be targeting on different version of IE.
 
-<!--[if IE 8]>
-	<link href="ie7.css" rel="stylesheet" type="text/css" />
-<![endif]-->
-<!--[if lt IE 8]>
-	<link href="ie7.css" rel="stylesheet" type="text/css" />
-<![endif]-->
 Here [if lt IE 8 ] means targeting IE 8 and below, [if gte IE 8 ] means greater than or equal.
 
 #2 Conditional HTML class
 This is mostly widely used in our team. Similarly using IE condition comments, but on HTML body rather than CSS reference in head:
 
-<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
-<!--[if IE 7 ]> <html class="ie7"> <![endif]-->
-<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
-<!--[if IE 9 ]> <html class="ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html> <!--<![endif]-->
 Therefore in CSS file you can use .ie div for IE specific CSS.
 
 #3 IE specific CSS rules.
 
 The most tricky one, this is using CSS rules which can only be understood by IE (and also version specified). Here are sample code:
 
-.box {
-	background: gray; /* standard */
-	background: pink\9; /* IE 8 and below */
-	*background: green; /* IE 7 and below */
-	_background: blue; /* IE 6 */
-}
 Comprehensively, “\9″ for IE 8, “*” for IE 7 and “_” for IE 6.
 
 This entry was posted in Tech and tagged CSS on 28/11/2012.
