@@ -10,6 +10,7 @@ Main page:
   background: #fff
   border: none
 Header colour: #209cc9, 29px, bold
+  hover: #21759b
 Navigation
   height: 44px
 Banner image:
