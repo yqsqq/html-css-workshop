@@ -4,7 +4,7 @@
     <list default="true" id="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" name="Default" comment="" />
     <ignored path="html-css-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/horsemen.html" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383574144205" ignored="false" />
+    <file path="/horsemen.html" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383578087677" ignored="false" />
     <file path="$PROJECT_DIR$/../ymzg/app/assets/javascripts/application.js" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383374681044" ignored="false" />
     <file path="/application.js" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383294762649" ignored="false" />
     <file path="$PROJECT_DIR$/../ymzg/public/index-old.html" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383374677262" ignored="false" />
@@ -14,7 +14,7 @@
     <file path="$USER_HOME$/Downloads/tw_ns_practice/.idea/modules.xml" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383316140611" ignored="false" />
     <file path="$USER_HOME$/Downloads/tw_ns_practice/src/main/java/com/thoughtworks/ns/practice/UglyTennisGame.java" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383377795757" ignored="false" />
     <file path="/UglyTennisGame.java" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383377794495" ignored="false" />
-    <file path="/app.css" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383574162202" ignored="false" />
+    <file path="/app.css" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383578450092" ignored="false" />
     <file path="/Dummy.txt" changelist="37a73da7-fa77-4ce1-b68f-6ca6ff4b4eab" time="1383570375248" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,19 +78,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.6586608">
       <split-first>
         <leaf>
-          <file leaf-file-name="horsemen.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="horsemen.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/view/horsemen.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="4" selection-start="71" selection-end="71" vertical-scroll-proportion="0.09478673">
+                <state line="98" column="38" selection-start="4350" selection-end="4350" vertical-scroll-proportion="-13.125">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/styles/app.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="36" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+                <state line="158" column="20" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.7089552">
                   <folding />
                 </state>
               </provider>
@@ -124,8 +124,8 @@
         <option value="$PROJECT_DIR$/horsemen.html" />
         <option value="$PROJECT_DIR$/src/styles/reset.css" />
         <option value="$PROJECT_DIR$/styleguide.txt" />
-        <option value="$PROJECT_DIR$/src/styles/app.css" />
         <option value="$PROJECT_DIR$/src/view/horsemen.html" />
+        <option value="$PROJECT_DIR$/src/styles/app.css" />
       </list>
     </option>
   </component>
@@ -436,16 +436,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/app.css">
+    <entry file="file://$PROJECT_DIR$/src/view/horsemen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+        <state line="98" column="38" selection-start="4350" selection-end="4350" vertical-scroll-proportion="-13.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/horsemen.html">
+    <entry file="file://$PROJECT_DIR$/src/styles/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="71" selection-end="71" vertical-scroll-proportion="0.09478673">
+        <state line="158" column="20" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.7089552">
           <folding />
         </state>
       </provider>

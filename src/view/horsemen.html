@@ -41,6 +41,14 @@
             <span>#1 IE condition comments</span>
 
             <p>IE condition comments are readable by IE and can be targeting on different version of IE.</p>
+            <div class="code-block commented">
+                <span>&lt;!-- [if IE 8]&gt;</span>
+                <span>&lt;link href="ie7.css" rel="stylesheet" type="text/css" /&gt;</span>
+                <span>&lt;![endif]--&gt; </span>
+                <span>&lt;!-- [if it IE 8]&gt;</span>
+                <span>&lt;link href="ie7.css" rel="stylesheet" type="text/css" /&gt;</span>
+                <span>&lt;![endif]--&gt;</span>
+            </div>
 
             <p>Here [if lt IE 8 ] means targeting IE 8 and below, [if gte IE 8 ] means greater than or equal.</p>
 
@@ -49,6 +57,13 @@
             <p>This is mostly widely used in our team. Similarly using IE condition comments, but on HTML body rather
                 than
                 CSS reference in head:</p>
+            <div class="code-block commented">
+                <span>&lt;!-- [if it IE 7]&gt; &lt;html class="ie6" &gt; &lt;![endif]--&gt;</span>
+                <span>&lt;!-- [if IE 7]&gt; &lt;html class="ie7" &gt; &lt;![endif]--&gt;</span>
+                <span>&lt;!-- [if IE 7]&gt; &lt;html class="ie8" &gt; &lt;![endif]--&gt;</span>
+                <span>&lt;!-- [if IE 7]&gt; &lt;html class="ie9" &gt; &lt;![endif]--&gt;</span>
+                <span>&lt;!-- [if (gt IE 9)|!(IE)]&gt; &lt;!--&gt; &lt;html&gt; &lt;!--&lt;![endif]--&gt;</span>
+            </div>
 
             <p>Therefore in CSS file you can use .ie div for IE specific CSS.</p>
 
@@ -58,10 +73,19 @@
                 specified).</p>
 
             <p>Here are sample code:</p>
+            <div class="code-block">
+                <span>.box {</span>
+                <span> background: gray; <b class="commented">/* standard */</b></span>
+                <span> background: pink\9; <b class="commented">/* IE 8 and below */</b></span>
+                <span> *background: green; <b class="commented">/* IE 7 and below */</b></span>
+                <span> _background: blue; <b class="commented">/* IE6 */</b></span>
+                <span> }</span>
+            </div>
 
             <p>Comprehensively, "\9"for IE 8, "*" for IE 7 and "_" for IE 6.</p>
 
-            <p>This entry was posted in <a href="">Tech</a> and tagged CSS on <a href="">28/11/2012</a>.</p>
+            <div class="footer"><p>This entry was posted in <a href="">Tech</a> and tagged CSS on <a href="">28/11/2012</a>.</p>
+            </div>
 
             <div class="pagination">
                 <a href="" class="last-page">Git - Squash Your Commits</a>
@@ -72,8 +96,8 @@
         <aside>
             <div>
                 <form>
-                    <input type="search" name="searchBox" placeholder="Search the blog"/>
-                    <button type="submit">Search</button>
+                    <input type="input" name="searchBox" class="search-box" placeholder="Search the blog"/>
+                    <button type="submit" class="search-button">Search</button>
                 </form>
             </div>
             <h2>TAGS</h2>
@@ -91,11 +115,11 @@
                 <a href="">Another Use of "git rebase -i"</a>
                 <a href="">Shell Auto Completion Step by Step</a>
                 <a href="">CSS Specific for Internet Explorer</a>
-                <a href="">Git ¨C Squash Your Commits </a>
+                <a href="">Git - Squash Your Commits </a>
             </div>
         </aside>
     </div>
-    <footer><p>Proudly powered by WordPress</p></footer>
+    <footer><p><a href="">Proudly powered by WordPress</a></p></footer>
 </div>
 </body>
 </html>

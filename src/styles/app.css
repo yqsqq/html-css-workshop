@@ -83,6 +83,9 @@ article p {
 
 article .pagination {
     color: #21759b;
+    margin-top: 2px;
+    border-top: 1px #ededed solid;
+    padding-top: 60px;
 }
 
 article  .pagination .last-page{
@@ -134,6 +137,53 @@ aside .tag-3x {
 
 aside .recent-posts a{
      display: block;
+}
+
+.code-block {
+    border: 1px #ededed solid;
+    padding: 10px;
+}
+
+.commented {
+    color: darkred;
+}
+
+.code-block span {
+    display: block;
+}
+
+.search-box {
+    line-height: 22px;
+    -webkit-border-radius: 3px;
+    border: 1px #ededed solid;
+    padding: 2px 4px;
+}
+
+.search-button {
+    line-height: 22px;
+    -webkit-border-radius: 3px;
+    border: 1px #ededed solid;
+    background-color: #e6e6e6;
+    color: #9f9f9f;
+}
+
+footer, .footer {
+    font-size: 11px;
+    color: #9f9f9f;
+}
+
+.footer {
+    border-bottom: 1px #ededed solid;
+}
+
+.footer a:visited, footer a:visited {
+    color: #9f9f9f;
+}
+
+footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px #ededed solid;
 }
 
 
