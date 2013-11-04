@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Four Horsemen</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/app.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>The Four Horsemen</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Me</a></li>
+            </ul>
+        </nav>
+        <img src="../../night.jpg"/>
+    </header>
+
+
+    <div class="main">
+        <article>
+            <h2>CSS Specific for Internet Explorer </h2>
+
+            <p>Internet Explorer may be the worst browser for front-end developers. Now I'm working in a pure front-end
+                team
+                and members here spent half of their "styling" time on IE compatibilities. I also heard one Australian
+                online
+                shopping website charges IE users more tax when purchasing their goods, because they waste developers'
+                time.
+                Coming back, we still need to struggle with IE issues, so here are three basic ways to specify CSS only
+                for
+                IE,
+                which won't affect other browers badly. I'm not going to introduce why CSS in IE behave differently and
+                how
+                to
+                solve them. </p>
+
+            <span>#1 IE condition comments</span>
+
+            <p>IE condition comments are readable by IE and can be targeting on different version of IE.</p>
+
+            <p>Here [if lt IE 8 ] means targeting IE 8 and below, [if gte IE 8 ] means greater than or equal.</p>
+
+            <span>#2 Conditional HTML class</span>
+
+            <p>This is mostly widely used in our team. Similarly using IE condition comments, but on HTML body rather
+                than
+                CSS reference in head:</p>
+
+            <p>Therefore in CSS file you can use .ie div for IE specific CSS.</p>
+
+            <span>#3 IE specific CSS rules.</span>
+
+            <p>The most tricky one, this is using CSS rules which can only be understood by IE (and also version
+                specified).</p>
+
+            <p>Here are sample code:</p>
+
+            <p>Comprehensively, "\9"for IE 8, "*" for IE 7 and "_" for IE 6.</p>
+
+            <p>This entry was posted in <a href="">Tech</a> and tagged CSS on <a href="">28/11/2012</a>.</p>
+
+            <div class="pagination">
+                <a href="" class="last-page">Git - Squash Your Commits</a>
+                <a href="" class="next-page">Shell Auto Completion Step by Step</a>
+            </div>
+
+        </article>
+        <aside>
+            <div>
+                <form>
+                    <input type="search" name="searchBox" placeholder="Search the blog"/>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <h2>TAGS</h2>
+
+            <div>
+                <a href="" class="tag-1x">CSS</a>
+                <a href="" class="tag-3x">Git</a>
+                <a href="" class="tag-1x">Gradle</a>
+                <a href="" class="tag-1x">Groovy</a>
+                <a href="" class="tag-3x">Shell</a>
+            </div>
+            <h2>RECENT POSTS</h2>
+
+            <div class="recent-posts">
+                <a href="">Another Use of "git rebase -i"</a>
+                <a href="">Shell Auto Completion Step by Step</a>
+                <a href="">CSS Specific for Internet Explorer</a>
+                <a href="">Git ¨C Squash Your Commits </a>
+            </div>
+        </aside>
+    </div>
+    <footer><p>Proudly powered by WordPress</p></footer>
+</div>
+</body>
+</html>
