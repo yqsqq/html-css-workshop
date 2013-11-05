@@ -8,10 +8,8 @@ body{
 
 body .container{
     width: 1040px;
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: #fff;
-    /*-moz-box-shadow: 0, 0, 6px, rgba(100, 100, 100, 0.3);*/
-
 }
 body .main {
     padding: 40px 40px;
@@ -34,7 +32,6 @@ footer {
 
 header nav {
     height: 44px;
-
     border-top: 1px #ededed solid;
     border-bottom: 1px #ededed solid;
     margin: 20px 0px;
@@ -84,7 +81,6 @@ article p {
 article .pagination {
     color: #21759b;
     margin-top: 2px;
-    border-top: 1px #ededed solid;
     padding-top: 60px;
 }
 
@@ -173,7 +169,7 @@ footer, .footer {
 }
 
 .footer {
-    border-bottom: 1px #ededed solid;
+    border-bottom: 4px  #ededed double;
 }
 
 .footer a:visited, footer a:visited {
@@ -185,5 +181,3 @@ footer p {
     padding-bottom: 20px;
     border-top: 1px #ededed solid;
 }
-
-
