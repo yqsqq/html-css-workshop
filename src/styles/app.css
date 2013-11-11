@@ -7,10 +7,32 @@ body{
 }
 
 body .container{
-    width: 1040px;
+    max-width: 1040px;
     margin: 50px auto;
     background-color: #fff;
 }
+@media (max-width: 480px){
+    body .container{
+        margin: 0px auto;
+    }
+
+    header {
+        padding: 0px;
+    }
+
+    article{
+        width: 100%;
+    }
+
+    /*header nav {*/
+        /*display: none;*/
+    /*}*/
+
+    header img {
+        display: none;
+    }
+}
+
 body .main {
     padding: 40px 40px;
     display: inline-block;
@@ -60,13 +82,14 @@ header nav ul li a:hover {
 }
 
 header img {
-    width: 960px;
+    width: 100%;
 }
 
 article {
     width: 70%;
     float: left;
 }
+
 
 article h2 {
     font-weight: bold;
@@ -180,4 +203,24 @@ footer p {
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px #ededed solid;
+}
+
+@media (max-width: 960px){
+    aside{
+        display: none;
+    }
+}
+
+@media (min-width: 480px){
+    #menuToggle {
+        display: none;
+    }
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }
